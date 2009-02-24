@@ -5,3 +5,5 @@ Works for my deploy capistrano+nginx script, will automatically sort out mongrel
 h2. Notes
 
 All content lives inside @/srv/@ and vhosts live inside @/srv/vhost.d/*.conf@
+
+Should pretty much get you A everytime on yslow, if you :all you're CSS and JS

@@ -1,0 +1,7 @@
+h1. My nginx config
+
+Works for my deploy capistrano+nginx script, will automatically sort out mongrels etc.
+
+h2. Notes
+
+All content lives inside @/srv/@ and vhosts live inside @/srv/vhost.d/*.conf@

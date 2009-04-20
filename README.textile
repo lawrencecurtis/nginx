@@ -1,9 +1,15 @@
 h1. My nginx config
 
-Works for my deploy capistrano+nginx script, will automatically sort out mongrels etc.
+Works for my "deploy":http://github.com/lawrencecurtis/deploy/tree/master capistrano+nginx script, will automatically sort out mongrels etc.
 
 h2. Notes
 
 All content lives inside @/srv/@ and vhosts live inside @/srv/vhost.d/*.conf@
 
 Should pretty much get you A everytime on yslow, if you :all you're CSS and JS
+
+h2. Example
+
+See the @examples@ folder for a cakephp and rails vhost example.
+
+I use "spawn-fcgi":http://redmine.lighttpd.net/wiki/lighttpd/FrequentlyAskedQuestions#FastCGI which is part of lighttpd for forwarding php requests.
